@@ -1,5 +1,5 @@
 group 'com.nec.baas.ssepush'
-version '7.0.0-SNAPSHOT'
+version '7.5.0-SNAPSHOT'
 
 apply plugin: 'java'
 apply plugin: 'application'
@@ -13,8 +13,8 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.nec.baas:baas-client-core:7.0.0'
-    implementation 'com.nec.baas.ssepush:ssepush-client:7.0.0'
+    implementation 'com.nec.baas:baas-client-core:7.5.0'
+    implementation 'com.nec.baas.ssepush:ssepush-client:7.5.0'
 
     implementation 'javax.activation:javax.activation-api:1.2.0'
 
